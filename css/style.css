@@ -1,0 +1,137 @@
+/*color: #212121;*/
+/*color: #757575;*/
+/*color: #2196F3;*/
+/* bragraund #E5E5E5 */
+/*  color secstion #F5F4FA */
+
+:root {
+    --main-color: #212121;
+    --paragraph-color: #757575; 
+    --changes-color: #2196F3;
+}
+body {
+    background-color: #FFFFFF;
+    color:var(--main-color);
+     font-family: Roboto,sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     line-height: 1.71;
+    }
+    a {
+        color: inherit; 
+    }
+    ul {
+        list-style: none;
+    }
+    .logo {
+        color: #FFFFFF;
+        font-family: Raleway,sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 3%;
+    }
+    .studio {
+        color:var(--main-color);
+    }
+    .web {
+        color:var(--changes-color);
+    }
+  address {
+    font-style: normal;
+  }
+  h1 {
+    color: #FFFFFF;
+    font-family:Roboto, sans-serif ;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 1.36;
+  }
+  button{
+    background-color:var(--changes-color);
+    color: #FFFFFF;
+    font-family: Roboto,sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.9;
+    border: none;
+  }
+ a {
+    text-decoration: none;
+ }
+ .nav-button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 2%;
+ }
+ .nav .current{
+    color:var(--changes-color);
+ }
+    .nav-button:hover,
+    .nav-button:focus{
+        color:var(--changes-color);
+    } 
+    .header-color{
+        background: #2F303A;
+    }
+    .header-button:hover,
+    .header-button:focus{
+       background-color: #188CE8;
+    }
+    .title {
+        font-weight: 700;
+        line-height: 1.14 
+    }
+    .work {
+        background-color: #F5F4FA;
+    }
+    .title-work {
+        font-weight: 700;
+        line-height: 1.16
+    }
+    .img-work {
+        font-weight: 500;
+        line-height: 1.9
+    }
+    .paragraph {
+        color: var(--paragraph-color);
+        line-height: 1.9;
+    }
+    .footer {
+        background-color: #2F303A;
+    }
+    .footer-button{
+        color: #FFFFFF;
+        font-weight: 400;
+        line-height: 1.71
+    }
+    .footer-button:hover,
+    .footer-button:focus{
+        color:var(--changes-color);
+    }
+    .footer-button.connect{
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .footer-button.connect:hover,
+    .footer-button.connect:focus{
+        color:var(--changes-color);
+    }
+    .portfolio-button{
+        color:var(--main-color);
+        background-color: #F5F4FA;
+
+    }
+    .portfolio-button:hover,
+    .portfolio-button:focus{
+        background-color:var(--changes-color);
+        color:#FFFFFF ;
+    }
+    .portfolio-button,.pointer {cursor: pointer;}; 
+    .portfolio-img {
+        line-height: 2;
+    }
+  
+  
+
+   
