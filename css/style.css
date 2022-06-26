@@ -323,7 +323,6 @@ body {
     .portfolio-item .portfolio-button :last-child {
         margin-left: 0px;
     }
-    
     .img-portfolio {
         font-size: 18px;
         font-weight: 700;
@@ -339,12 +338,10 @@ body {
     .portfolio {
         display: flex;
         flex-wrap: wrap;
-        
         margin-top: 50px;
         
     }
     
-
     .portfolio-work {
         width: 370px;
         margin-right: 30px;
