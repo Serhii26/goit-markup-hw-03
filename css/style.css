@@ -312,7 +312,7 @@ body {
     .portfolio-work {
         width: 370px;
         margin-right: 30px;
-        border-bottom: 1px solid #EEEEEE;
+        
         
     }
 
@@ -338,6 +338,7 @@ body {
     .portfolio-people {
         padding-top: 20px;
         padding-bottom: 20px;
+        border: 1px solid #EEEEEE;
     }
     .img-portfolio {
         margin-bottom: 6px;
